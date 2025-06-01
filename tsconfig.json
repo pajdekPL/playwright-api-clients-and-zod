@@ -8,7 +8,8 @@
     "strictNullChecks": true,
     "paths": {
       "@api/*": ["src/api/*"],
-      "@schemas/*": ["src/schemas/*"]
+      "@schemas/*": ["src/api/schemas/*"],
+      "@fixtures/*": ["src/fixtures/*"]
     }
   }
 }

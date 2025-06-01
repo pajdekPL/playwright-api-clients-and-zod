@@ -1,16 +1,16 @@
 import { BaseApiClient, RequestParams } from "@api/base-client";
 import { FetchConfig, FetchResponse } from "@api/fetch-helper";
-import { APIRequestContext, expect } from "@playwright/test";
 import {
   ChirpyLogin,
   ChirpyLoginResponse,
   ChirpyLoginResponseSchema,
-} from "@schemas/chirpy-auth.schema";
+} from "@api/schemas/chirpy-auth.schema";
 import {
   ChirpDataCreate,
   ChirpResponse,
   ChirpResponseSchema,
-} from "@schemas/chirpy-chirps.schema";
+} from "@api/schemas/chirpy-chirps.schema";
+import { APIRequestContext, expect } from "@playwright/test";
 import { BASE_URL } from "playwright.config";
 
 export class ChirpyApiClient extends BaseApiClient {

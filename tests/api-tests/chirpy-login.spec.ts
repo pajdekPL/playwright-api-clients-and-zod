@@ -1,6 +1,6 @@
 import { ChirpyApiClient, createChirpyApiClient } from "@api/chirpy-client";
+import { ChirpyErrorSchema } from "@api/schemas/chirpy-error.schema";
 import { expect, test } from "@playwright/test";
-import { ChirpyErrorSchema } from "@schemas/chirpy-error.schema";
 import { CHIRPY_LOGIN, CHIRPY_PASSWORD } from "playwright.config";
 
 test.describe("Chirpy api/login", () => {
