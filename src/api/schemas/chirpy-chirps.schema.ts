@@ -1,4 +1,4 @@
-import { z as schema } from "zod";
+import { z as schema } from "zod/v4";
 
 export const ChirpResponseSchema = schema.object({
   author_name: schema.string(),
