@@ -1,6 +1,6 @@
 // Import the 'z' object from the 'zod' library and alias it as 'schema'.
 // 'zod' is a TypeScript-first schema declaration and validation library.
-import { z as schema } from "zod";
+import { z as schema } from "zod/v4";
 
 // Define a Zod schema for the login request payload.
 // This schema expects an object with two string properties: 'email' and 'password'.
