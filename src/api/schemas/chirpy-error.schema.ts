@@ -1,4 +1,4 @@
-import { z as schema } from "zod";
+import { z as schema } from "zod/v4";
 
 export const ChirpyErrorSchema = schema.object({
   error: schema.string(),
